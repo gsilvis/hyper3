@@ -39,6 +39,7 @@ void render (void) {
 
   GLfloat model_loc[4] = {0, 0, 0, 1};
 
+#if 1
   for (int i = -2; i <= 2; i++) {
     model_loc[0] = 0.45*i;
     for (int j = -2; j <= 2; j++) {
@@ -50,6 +51,12 @@ void render (void) {
       }
     }
   }
+#endif
+#if 0
+  GLfloat model_loc_2[4] = {0, 0, -0.99, 1};
+  set_model_loc(model_loc_2);
+  glDrawArrays(GL_TRIANGLES, 0, len);
+#endif
 #if 0
   GLfloat model_loc_1[4] = {0, 0, 0, 1};
   set_model_loc(model_loc_1);
