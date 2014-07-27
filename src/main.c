@@ -102,7 +102,7 @@ int main (int argc, char **argv) {
     return -3;
   }
 
-  SDL_WM_SetCaption("George's SDL-GL Tutorual", "GSGT");
+  SDL_WM_SetCaption("Hyper3", "GSGT");
 
   if (GLEW_OK != glewInit()) {
     fprintf(stderr, "GLEW init failed.\n");

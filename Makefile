@@ -1,4 +1,4 @@
-CFLAGS = -Wall -Wextra -Wno-unused-parameter -std=gnu99
+CFLAGS = -Wall -Wextra -Wno-unused-parameter -std=gnu99 -lm
 #CFLAGS += -O3
 #CFLAGS += -march=native
 #CFLAGS += -fdata-sections -ffunction-sections
