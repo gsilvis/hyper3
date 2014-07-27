@@ -65,13 +65,7 @@ void insert_mat (void) {
   GLint program;
   glGetIntegerv(GL_CURRENT_PROGRAM, &program);
   GLint mat_uniform = glGetUniformLocation(program, "mat");
-#if 1
   matrix_mult(mat1, camera_mat, proj_mat);
   matrix_mult(mat2, model_mat, mat1);
-#endif
-#if 0
-  matrix_mult(mat1, camera_mat, model_mat);
-  matrix_mult(mat2, proj_mat, mat1);
-#endif
   glUniformMatrix4fv(mat_uniform, 1, GL_FALSE, &mat2[0]);
 }
