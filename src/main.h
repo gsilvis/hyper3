@@ -1,5 +1,5 @@
-#ifndef __GLHYP_MAIN_H
-#define __GLHYP_MAIN_H
+#ifndef __HYPER3_MAIN_H
+#define __HYPER3_MAIN_H
 
 #include <GL/glew.h>
 #include <SDL.h>
@@ -13,4 +13,4 @@ void set_up_program (const char *vert_shader_path,
 void main_loop (SDL_Surface *screen);
 
 
-#endif /* __GLHYP_MAIN_H */
+#endif /* __HYPER3_MAIN_H */

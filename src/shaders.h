@@ -1,5 +1,5 @@
-#ifndef __GLHYP_SHADERS_H
-#define __GLHYP_SHADERS_H
+#ifndef __HYPER3_SHADERS_H
+#define __HYPER3_SHADERS_H
 
 #include <GL/glew.h>
 
@@ -9,4 +9,4 @@ GLuint set_up_shader (const char *shader_path,
 void set_up_program (const char *vert_shader_path,
                      const char *frag_shader_path);
 
-#endif /* __GLHYP_SHADERS_H */
+#endif /* __HYPER3_SHADERS_H */

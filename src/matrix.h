@@ -1,5 +1,5 @@
-#ifndef __GLHYP_MATRIX_H
-#define __GLHYP_MATRIX_H
+#ifndef __HYPER3_MATRIX_H
+#define __HYPER3_MATRIX_H
 
 #include <math.h>
 #include <GL/glew.h>
@@ -39,4 +39,4 @@ void translate (GLfloat *result,
                 const GLfloat *from,
                 const GLfloat *to);
 
-#endif /* __GLHYP_MATRIX_H */
+#endif /* __HYPER3_MATRIX_H */
